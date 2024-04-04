@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(221, 211, 211)fff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+/* Estilos para a seção de banner */
+.banner {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilos para a seção de recursos */
+.resources {
+    padding: 50px;
+}
+
+.resource {
+    text-align: center;
+}
+
+/* Estilos para a seção de depoimentos */
+.testimonials {
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #524957;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    color: rgb(165, 28, 170);
+    padding-right: 40px;
+}
+.imagem{
+    width: 50rem;
+}
