@@ -21,7 +21,26 @@
 
     <section class="banner">
         <h1>Meu portifólio</h1>
+        <style>
+            .imagem-redonda {
+                width: 200px; /* Defina o tamanho desejado */
+                height: 200px;
+                border-radius: 50%; /* Cria uma borda redonda */
+                overflow: hidden; /* Garante que a imagem não ultrapasse os limites da borda redonda */
+            }
+            .imagem-redonda img {
+                width: 100%; /* Garante que a imagem se ajuste ao tamanho da div */
+                height: auto; /* Mantém a proporção da imagem */
+            }
+        </style>
+        </head>
+        <body>
         
+        <div class="imagem-redonda">
+            <img src="images.png" alt="Imagem">
+        </div>
+        
+        </body>
     </section>
 
     <section class="resources">
