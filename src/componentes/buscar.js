@@ -15,4 +15,5 @@ export default class busca extends Component {
             <p>até logo</p>
         </div>
  )
+    }
 }
